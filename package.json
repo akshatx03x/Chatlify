@@ -27,7 +27,6 @@
     "picocolors": "^1.1.1",
     "picomatch": "^4.0.3",
     "postcss": "^8.5.6",
-    "rollup": "^4.46.2",
     "source-map-js": "^1.2.1",
     "tailwindcss": "^4.1.11",
     "tapable": "^2.2.2",
@@ -36,6 +35,12 @@
     "vite": "^7.1.2",
     "yallist": "^5.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "rollup": "^4.46.2"
+  },
+  "engines": {
+  "node": "20.x"
+},
+
   "description": ""
 }
