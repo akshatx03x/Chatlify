@@ -36,7 +36,7 @@ Encryption & Security: JWT, bcrypt
 Follow these steps to run Chatlify locally:
 
 1. Clone the repo
-git clone https://github.com/your-username/chatlify.git
+git clone- (https://github.com/akshatx03x/Chatlify/tree/main?tab=readme-ov-file)
 cd chatlify
 
 2. Install dependencies
@@ -72,7 +72,7 @@ The app should now be running at:
 👉 Frontend: http://localhost:3000
 👉 Backend API: http://localhost:5000
 
-📸 Screenshots
+📸 **Screenshots**
 <img width="1901" height="854" alt="image" src="https://github.com/user-attachments/assets/d842d5af-5b79-4d08-81a4-fb85323473ff" />
 <img width="1906" height="861" alt="image" src="https://github.com/user-attachments/assets/43c71946-ee41-4e7a-9d59-88cfdb07567c" />
 
