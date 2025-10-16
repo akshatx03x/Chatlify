@@ -17,10 +17,12 @@ const Navbar = () => {
             to="/"
             className="flex items-center gap-2 hover:opacity-80 transition-all"
           >
-            <div className="size-8 sm:size-9 rounded-lg bg-primary/10 flex items-center justify-center">
+            <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-lg bg-primary/10 flex items-center justify-center">
               <MessageSquare className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
             </div>
-            <h1 className="text-base sm:text-lg font-bold text-white">Chatlify</h1>
+            <h1 className="text-base sm:text-lg font-bold text-gray-300 drop-shadow-sm">
+              Chatlify
+            </h1>
           </Link>
 
           {/* Right - Buttons (Desktop) */}

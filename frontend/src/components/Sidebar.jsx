@@ -33,7 +33,7 @@ const Sidebar = () => {
       <div className="border-b border-base-300 w-full p-3 sm:p-5">
         {authUser && (
           <div className="mb-4">
-            <div className="flex items-center gap-2 sm:gap-3">
+            <div className="flex items-center gap-2  sm:gap-3">
               <img
                 src={authUser.profilePic || '/avatar.png'}
                 alt={authUser.fullName}
@@ -45,7 +45,7 @@ const Sidebar = () => {
                 onClick={() => navigate('/profile')}
                 className="text-left hidden sm:block"
               >
-                <div className="text-base sm:text-lg font-bold text-white truncate">
+                <div className="text-base sm:text-lg font-bold text-gray-300 truncate">
                   {authUser.fullname}
                 </div>
                 <div className="text-xs sm:text-sm font-semibold truncate text-zinc-400">
