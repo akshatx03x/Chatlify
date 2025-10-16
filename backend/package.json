@@ -24,6 +24,7 @@
     "socket.io": "^4.8.1"
   },
   "devDependencies": {
+    "kill-port": "^2.0.1",
     "nodemon": "^3.1.7"
   },
   "description": ""
